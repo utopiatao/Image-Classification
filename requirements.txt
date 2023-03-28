@@ -1,0 +1,37 @@
+# (Tao Yang)
+
+Following packages are required to be pre-installed to run the functionalities in the notebook.
+
+
+import tensorflow as tf
+import matplotlib.pyplot as plt
+import pandas as pd
+import splitfolders
+import random
+import shutil
+import cv2
+import os
+import numpy as np
+import argparse
+import torch
+import torch.nn as nn
+import torchvision
+import torch.nn.functional as F
+from torch.autograd import Variable
+from tensorflow.keras.applications import EfficientNetB0
+from keras.callbacks import ModelCheckpoint, EarlyStopping
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.optimizers import RMSprop
+from torch.optim import Adam
+from keras.models import Sequential
+from keras.optimizers import RMSprop, Adam
+from keras.layers import Dense, Activation, Dropout, Conv2D, MaxPooling2D, Flatten
+from tensorflow import keras
+from keras.layers import LSTM
+
+import warnings
+warnings.filterwarnings("ignore")
+
+You may want to use pip or conda to install packages that are mentioned above:
+(for example, in command line or terminal, type: 'pip install sqlite3')
